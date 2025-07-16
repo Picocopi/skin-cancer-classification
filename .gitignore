@@ -1,0 +1,78 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# PyTorch Models (large files)
+*.pth
+*.pt
+*.pkl
+
+# Data files (large)
+*.csv
+*.jpg
+*.jpeg
+*.png
+*.tiff
+*.bmp
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+training_log.txt
+
+# Streamlit
+.streamlit/
+
+# Large model directories
+HAM10000_images/
+ham10000_processed/
+
+# Keep README and requirements
+!README.md
+!requirements.txt
+
+# Keep sample images if small
+!sample_images/
